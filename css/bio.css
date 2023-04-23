@@ -1,7 +1,8 @@
 h2 {
     color: white;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    margin-bottom: 24px;
+    /* mobile */
+    margin-bottom: 8px;
 }
 
 .landing {
@@ -23,14 +24,14 @@ justify-content: center;
 
 .line-one {
     color: #EADBAF;
-    font-size: 2rem;
+    font-size: 1.3rem;
     text-transform: uppercase;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .line-two {
     color: white;
-    font-size: 1rem;
+    font-size: 0.8rem;
     letter-spacing: 0.5rem;
     text-transform: uppercase;
 
@@ -109,7 +110,19 @@ h4 {
         background-size: 105%;
         cursor: pointer;
     }
+
+    h2 {
+        margin-bottom: 24px;
+    }
+
+    .line-one {
+        font-size: 2rem;
+    }
     
+    .line-two {
+        font-size: 1rem;
+    }
+
     .members .col-md-3 {
         min-height: 50vh !important;
     
