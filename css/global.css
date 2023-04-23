@@ -39,6 +39,10 @@ body {
     padding-bottom: 0px;
 }
 
+html, body {
+    overflow-x: hidden;
+}
+
 .full-height {
     min-height: 100vh;
 
