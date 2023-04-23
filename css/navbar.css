@@ -12,3 +12,7 @@
     font-style: normal;
     text-transform: uppercase;
 }
+
+.navbar a {
+    font-style: normal;
+}
