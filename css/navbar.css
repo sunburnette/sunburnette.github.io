@@ -4,7 +4,14 @@
 
 .navbar-brand {
     font-family: 'Pasti';
+    font-style: normal;
 }
+
+.nav-item {
+    font-style: normal;
+}
+
+
 
 .navbar .nav-item {
     font-family: 'Singulier';
