@@ -1,0 +1,18 @@
+footer {
+    background-color: #C0472D;
+    background-image: url('/images/home/background-music.png');
+    background-position: center;
+    
+    color: white;
+    text-align: center;
+
+    font-family: "Singulier";
+    font-size: 1rem;
+
+    padding: 24px 16px;
+}
+
+a {
+    color: white;
+    font-style: italic;
+}

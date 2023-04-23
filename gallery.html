@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="/css/social-media.css" />
     <link rel="stylesheet" href="/css/navbar.css" />
     <link rel="stylesheet" href="/css/footer.css" />
-    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/gallery.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>SUN BURNETTE - Indie rock band in San Diego, CA</title>
@@ -37,7 +37,7 @@
     <script src="js/navbar.js" language="JavaScript" type="text/javascript"></script> 
     <script src="js/social-media.js" language="JavaScript" type="text/javascript"></script> 
     <script src="js/footer.js" language="JavaScript" type="text/javascript"></script> 
-    <script src="js/shows.js" language="JavaScript" type="text/javascript"></script> 
+    <script src="js/modal.js" language="JavaScript" type="text/javascript"></script> 
   </head>
 
   <header></header>
@@ -48,76 +48,57 @@
 
     <main>
 
-      <section class="hero center">
-        <div class="hero-text">
-          <img class="space-24" src="/images/home/wordmark.png">
-          <p class="tagline">Indie rock band based in San Diego, CA</p>
-        </div>
-      </section>
+      <section>
+        <h2>Gallery</h2>
 
-      <section class="music">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-md-6 center">
-                <img src="/images/home/music-tnp.png"/>
-                <p class="allcaps-wide">Latest Single</p>
-                <h2 class="space-48">Totally Not Personal</h2>
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2cwuTv6QCb1m0b900e9mbF?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      
+          <h3 id="videos-title">Videos</h3>
+
+          <div class="row space-48">
+            <div class="col-12 col-md-6 center">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/JE-3xh79yCg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
-        </div>
-        
-      </section>
-
-      <section class="shows">
-
-        <div class="row justify-content-center align-items-center">
-            <div class="col">
-                <h2 class="center">Upcoming Shows</h2>
-                <p class="center allcaps-wide space-48">in San Diego</p>
-    
-                <!-- CHANGE SHOWS HERE -->
-    
-                <div id="shows"></div>
-    
-              <!-- END CHANGE SHOWS HERE -->
-    
-            </div>
-        </div>
-        
-      </section>
-
-      <section class="gallery-and-shop">
-
-        <div class="gallery center ">
-          <h2>Gallery</h2>
-
-          <div class="gallery-container">
-            <div class="row">
-              <div class="col-6 col-md">
-                <img src="/images/home/gallery-1crop.JPG"/>
-              </div>
-              <div class="col-6 col-md">
-                <img src="/images/home/gallery-2crop.jpg"/>
-              </div>
-              <div class="col-6 col-md">
-                <img src="/images/home/gallery-3crop.jpg"/>
-              </div>
-              <div class="col-6 col-md">
-                <img src="/images/home/gallery-4crop.jpg"/>
-              </div>
-              <div class="col-6 col-md">
-                <img src="/images/home/gallery-5crop.jpg"/>
-              </div>
+            <div class="col-12 col-md-6">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/19xL4XNrMIE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
           </div>
 
-          <a href="/gallery.html">View More</a>
+          <div class="photos">
+            <h3>Photos</h3>
 
-        </div>
+            <div class="gallery-container space-48">
+              <div class="row">
+                <div class="col-6 col-md">
+                  <img src="/images/home/gallery-1.JPG" onclick="enlarge(this)"/>
+                </div>
+                <div class="col-6 col-md">
+                  <img src="/images/home/gallery-2.jpg" onclick="enlarge(this)"/>
+                </div>
+                <div class="col-6 col-md">
+                  <img src="/images/home/gallery-3.jpg" onclick="enlarge(this)"/>
+                </div>
+                <div class="col-6 col-md">
+                  <img src="/images/home/gallery-4.jpg" onclick="enlarge(this)"/>
+                </div>
+                <div class="col-6 col-md">
+                  <img src="/images/home/gallery-5.jpg" onclick="enlarge(this)"/>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
        
+        <h3>Instagram</h3>
+
+        <script class="instagram" src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-efc7072f-432d-458e-bf56-a8b81af11bce"></div>
+
       </section>
 
+      <div id="modal01" class="modal">#</div>
+      
       <div id="social-media"></div>
-
       <div id="footer"></div>
 
       <div class="loader-wrapper">

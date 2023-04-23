@@ -1,0 +1,132 @@
+h2 {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    margin-bottom: 24px;
+}
+
+.landing {
+    background-image: url('/images/bio/landing-bg.png');
+    background-position: center;
+    background-size: 100%;
+
+    display: flex;
+align-items: center;
+justify-content: center;
+
+    margin-top: 72px;
+    margin-bottom: 48px;
+
+    /* mobile */
+    min-height: 40vh !important;
+    background-size: cover;
+}
+
+.line-one {
+    color: #EADBAF;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.line-two {
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0.5rem;
+    text-transform: uppercase;
+
+    font-weight: light;
+}
+
+.members .col-md-3 {
+    min-height: 50vh !important;
+
+    display: flex;
+align-items: center;
+justify-content: center;
+
+
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+
+.allen {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.5), url('/images/bio/allen.png')); */
+    background-image: url('/images/bio/allen.png');
+    background-position: center;
+    
+
+   
+}
+
+.anette {
+    background-image: url('/images/bio/anette.JPG');
+    background-position: center;
+
+}
+
+.marj {
+    background-image: url('/images/bio/marj.png');
+    background-position: center;
+
+}
+
+.nisarg {
+    background-image: url('/images/bio/nisarg.png');
+    background-position: center;
+
+}
+
+h4 {
+    font-size: 2rem;
+    font-family: "Pasti";
+    color: white;
+
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media (min-width: 768px) {
+
+    /* WEB ANIMATION  */
+
+    .landing {
+        min-height: 75vh!important;
+    }
+    .landing {
+        background-size: 100%;
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.0);
+    -webkit-transition: all 0.3s ease-in-out;
+    }
+
+    .landing:hover {
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+        background-size: 105%;
+        cursor: pointer;
+    }
+    
+    .members .col-md-3 {
+        min-height: 50vh !important;
+    
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    background-size: 100%;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.0);
+    /* Hover animation */
+    -webkit-transition: all 0.3s ease-in-out;
+    }
+    .members .col-md-3:hover {
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.3);
+        background-size: 110%;
+        cursor: pointer;
+    }
+}

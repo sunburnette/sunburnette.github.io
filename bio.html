@@ -27,9 +27,10 @@
     />
     <link rel="stylesheet" href="/css/global.css" />
     <link rel="stylesheet" href="/css/social-media.css" />
+    <link rel="stylesheet" href="/css/modal.css">
     <link rel="stylesheet" href="/css/navbar.css" />
     <link rel="stylesheet" href="/css/footer.css" />
-    <link rel="stylesheet" href="/css/index.css" />
+    <link rel="stylesheet" href="/css/bio.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <title>SUN BURNETTE - Indie rock band in San Diego, CA</title>
@@ -37,7 +38,7 @@
     <script src="js/navbar.js" language="JavaScript" type="text/javascript"></script> 
     <script src="js/social-media.js" language="JavaScript" type="text/javascript"></script> 
     <script src="js/footer.js" language="JavaScript" type="text/javascript"></script> 
-    <script src="js/shows.js" language="JavaScript" type="text/javascript"></script> 
+    <script src="js/modal.js" language="JavaScript" type="text/javascript"></script> 
   </head>
 
   <header></header>
@@ -48,77 +49,36 @@
 
     <main>
 
-      <section class="hero center">
-        <div class="hero-text">
-          <img class="space-24" src="/images/home/wordmark.png">
-          <p class="tagline">Indie rock band based in San Diego, CA</p>
+      <section class="landing" id="band" onclick="openModal(this)">
+        <div class="center">
+          <h2>Bio</h2>
+          <p class="line-one">Music for Cargo Shorts Lovers</p>
+          <p class="line-two">Click to Learn More</p>
         </div>
       </section>
 
-      <section class="music">
-        <div class="row align-items-center justify-content-center">
-            <div class="col-md-6 center">
-                <img src="/images/home/music-tnp.png"/>
-                <p class="allcaps-wide">Latest Single</p>
-                <h2 class="space-48">Totally Not Personal</h2>
-                <iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/2cwuTv6QCb1m0b900e9mbF?utm_source=generator&theme=0" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-            </div>
-        </div>
-        
-      </section>
-
-      <section class="shows">
-
-        <div class="row justify-content-center align-items-center">
-            <div class="col">
-                <h2 class="center">Upcoming Shows</h2>
-                <p class="center allcaps-wide space-48">in San Diego</p>
-    
-                <!-- CHANGE SHOWS HERE -->
-    
-                <div id="shows"></div>
-    
-              <!-- END CHANGE SHOWS HERE -->
-    
-            </div>
-        </div>
-        
-      </section>
-
-      <section class="gallery-and-shop">
-
-        <div class="gallery center ">
-          <h2>Gallery</h2>
-
-          <div class="gallery-container">
-            <div class="row">
-              <div class="col-6 col-md">
-                <img src="/images/home/gallery-1crop.JPG"/>
-              </div>
-              <div class="col-6 col-md">
-                <img src="/images/home/gallery-2crop.jpg"/>
-              </div>
-              <div class="col-6 col-md">
-                <img src="/images/home/gallery-3crop.jpg"/>
-              </div>
-              <div class="col-6 col-md">
-                <img src="/images/home/gallery-4crop.jpg"/>
-              </div>
-              <div class="col-6 col-md">
-                <img src="/images/home/gallery-5crop.jpg"/>
-              </div>
-            </div>
+      <section class="members center">
+        <div class="row">
+          <div class="col col-6 col-md-3 allen align-items-center justify-content-center">
+            <h4 id="allen" onclick="openModal(this)">Allen</h4>
           </div>
-
-          <a href="/gallery.html">View More</a>
-
-        </div>
-       
+          <div class="col col-6 col-md-3 anette align-items-center justify-content-center">
+            <h4 id="anette" onclick="openModal(this)">Anette</h4>
+          </div>
+          <div class="col col-6 col-md-3 marj align-items-center justify-content-center">
+            <h4 id="marj" onclick="openModal(this)">Marj</h4>
+          </div>
+          <div class="col col-6 col-md-3 nisarg align-items-center justify-content-center">
+            <h4 id="nisarg" onclick="openModal(this)">Nisarg</h4>
+          </div>
+      </div>
       </section>
 
-      <div id="social-media"></div>
+
 
       <div id="footer"></div>
+
+      <div id="modal01" class="modal">#</div>
 
       <div class="loader-wrapper">
         <img src="/images/sunby.png" />
@@ -145,7 +105,6 @@
         <script> AOS.init(); </script>
 
     <script src="/js/loader.js"></script>
-    <script src="/js/scroll-nav.js"></script>
 
 
   </body>

@@ -1,0 +1,87 @@
+body {
+    min-height: 100vh;
+    padding-top: 72px;
+
+}
+
+main {
+    background-image: url('/images/home/background-music.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    padding: 16px;
+}
+
+.contact-note {
+    font-family: "Singulier";
+    font-size: 1.5rem;
+    color: #5B2C10;
+    text-align: center;
+}
+
+form {
+    width: 95%;
+    margin: 0 auto;
+}
+
+label, input, textarea {
+    display: block;
+    width: 100%;
+}
+
+input, textarea {
+    border-radius: 16px;
+    border: none;
+    min-height: 56px;
+
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    
+    margin-bottom: 24px;
+
+    padding: 12px;
+
+    font-family: 'Singulier';
+}
+
+label {
+    font-size: 1.3rem;
+    font-family: "Pasti";
+}
+
+textarea {
+    min-height: 200px;
+}
+
+form button {
+    margin: 0 auto !important;
+}
+
+footer {
+    font-weight: normal !important;
+}
+
+.social-media {
+    /* mobile removing the global padding for sections */
+    padding: 0px;
+}
+
+@media (min-width: 760px) {
+    form {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .social-media {
+        position: relative;
+        width: 60%;
+        margin: 0 auto;
+        right: auto;
+        bottom: auto;
+        text-align: center;
+        z-index: 1;
+    
+        padding-bottom: 56px;
+    }
+}

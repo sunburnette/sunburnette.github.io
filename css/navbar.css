@@ -1,0 +1,12 @@
+.navbar {
+    background: none;
+}
+
+.navbar-brand {
+    font-family: 'Pasti';
+}
+
+.navbar .nav-item {
+    font-family: 'Singulier';
+    text-transform: uppercase;
+}

@@ -1,0 +1,253 @@
+@font-face {
+    font-family: 'Pasti';
+    src: url('../fonts/Pasti-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Singulier';
+    src: url('../fonts/Singulier-Light.ttf') format('opentype');
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Singulier';
+    src: url('../fonts/Singulier-Bold.ttf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+section {
+    min-height: 50vh;
+
+}
+.hero {
+    background-image: url('/images/home/landing.jpg');
+    background-position: center;
+    position: relative;
+
+    /* mobile */
+    min-height: 50vh;
+    background-size: cover;
+}
+
+.hero img {
+    max-width: 500px;
+    width: 90%;
+}
+
+.hero-text {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 12px;
+
+    text-transform: uppercase;
+    color: white;
+    font-family: "Singulier";
+    letter-spacing: 0.5rem;
+    text-shadow: 2px 2px 8px black;
+
+    /* mobile */
+    width:90%;
+    font-size: 0.8rem;
+}
+
+/* Brightness animation */
+
+@keyframes brightness {
+	0% {
+		
+		filter: brightness(1);
+	}
+	50% {
+		
+		filter: brightness(1.5);
+	}
+	100% {
+		
+		filter: brightness(1);
+	}
+}
+
+.hero img {
+    animation: brightness 4s ease-in infinite;
+}
+
+/* Music */
+
+.music {
+    padding: 48px;
+
+    background-image: url('/images/home/background-music.png');
+    background-size: cover;
+}
+
+.music img {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-bottom: 24px;
+}
+
+/* Shop */
+
+.shows {
+    background-image: url('/images/home/shows.jpg');
+    background-size: cover;
+    /* mobile */
+    padding: 32px;
+}
+
+.shows h2 {
+    margin-bottom: 12px !important;
+}
+
+.shows .space-48 {
+    margin-bottom: 12px!important;
+}
+
+.shows .col {
+    background-color: rgb(234,219,175, 0.8);
+    border-radius: 8px;
+    /* mobile */
+    padding: 32px;
+}
+
+.shows .show-single {
+    /* mobile */
+    margin-bottom: 12px;
+}
+
+.shows .show-single:last-of-type {
+    margin-bottom: 0px;
+}
+
+.shows .date {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-family: "Singulier";
+    font-weight: bold;
+
+    /* mobile */
+    text-align: left;
+}
+
+.shows .show-title {
+    font-family: 'Pasti';
+    font-size: 1.8rem;
+    text-align: left;
+    margin-bottom: 0px;
+    letter-spacing: 0px;
+}
+
+.shows .show-location {
+    font-family: "Singulier";
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-bottom: 8px;
+}
+
+.shows .show-details {
+    font-family: 'Singulier';
+    font-weight: light;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+/* Gallery and Shows */
+
+.gallery-and-shop {
+    background-image: url('/images/home/background-graphic.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.gallery img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.gallery {
+    padding: 16px;
+    margin-bottom: 24px;
+}
+
+.gallery .row {
+    margin-bottom: 12px;
+}
+
+.gallery .col-6 {
+    padding: 8px;
+}
+
+.gallery a {
+    font-weight: bold;
+    color: white;
+    text-align: right !important;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+}
+
+@media (min-width:768px)  {
+    
+    .hero {
+        background-size: cover;
+        background-position: 0px;
+        min-height: 100vh;
+    }
+
+    .hero-text {
+        font-size: 1.5rem;
+        bottom: 72px;
+    }
+
+    section {
+        min-height: 100vh;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .shows .space-48 {
+        margin-bottom: 48px !important;
+    }
+
+    .shows .date {
+        text-align: center;
+
+        background-image: url('/images/home/shows-sun.png');
+        background-size: 50%;
+        background-repeat: no-repeat;
+        background-position: top center;
+    }
+
+    .shows {
+        padding: 72px;
+    }
+
+    .shows .col {
+        padding: 48px;
+    }
+
+    .shows .show-single {
+        margin-bottom: 48px;
+    }
+
+    .gallery-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .gallery .col {
+        width: 500px;
+    }
+
+    
+}
