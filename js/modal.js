@@ -38,7 +38,7 @@ function openModal(element) {
         document.getElementById("name").innerHTML = 'The Band';
 
         document.getElementById("picture").style.backgroundImage = "url('/images/home/gallery-2.JPG')";
-        document.getElementById("picture-inner").src = "/images/bio/gallery-2.JPG";
+        document.getElementById("picture-inner").src = "/images/home/gallery-2.JPG";
 
         document.getElementById("member-bio").innerHTML = 'SUN BURNETTE is an indie-rock band based in San Diego California. Using their collective experiences as first-gen 20-somethings, they connect with their peers here and abroad through songwriting. Knowingly navigating adolescence with complex identities, they offer a relatable conduit to listeners as a breath of fresh air. Sometimes, it\'s just not that deep. Sometimes it is.';
     }
