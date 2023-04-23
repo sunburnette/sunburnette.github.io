@@ -65,6 +65,7 @@ footer {
 .social-media {
     /* mobile removing the global padding for sections */
     padding: 0px;
+    padding-bottom: 24px;
 }
 
 @media (min-width: 760px) {
