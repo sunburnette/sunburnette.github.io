@@ -7,13 +7,8 @@
     font-style: normal;
 }
 
-.nav-item {
-    font-style: normal;
-}
-
-
-
 .navbar .nav-item {
     font-family: 'Singulier';
+    font-style: normal;
     text-transform: uppercase;
 }
