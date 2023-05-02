@@ -137,6 +137,10 @@ section {
     text-align: left;
 }
 
+.shows button a {
+    font-style: normal !important;
+}
+
 .shows .show-title {
     font-family: 'Pasti';
     font-size: 1.8rem;
