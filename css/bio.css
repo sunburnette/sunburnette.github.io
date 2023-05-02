@@ -55,26 +55,30 @@ background-repeat: no-repeat;
     /* background: linear-gradient(rgba(0, 0, 0, 0.5), url('/images/bio/allen.png')); */
     background-image: url('/images/bio/allen.png');
     background-position: center;
+    background-position-y: bottom;
     
 
    
 }
 
 .anette {
-    background-image: url('/images/bio/anette.JPG');
+    background-image: url('/images/bio/anette.png');
     background-position: center;
+    background-position-y: top;
 
 }
 
 .marj {
     background-image: url('/images/bio/marj.png');
     background-position: center;
+    background-position-y: top;
 
 }
 
 .nisarg {
     background-image: url('/images/bio/nisarg.png');
     background-position: center;
+    background-position-y: top;
 
 }
 
