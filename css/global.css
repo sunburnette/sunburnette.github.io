@@ -179,3 +179,7 @@ button a:hover {
 button:hover {
     background-color: #FA8540;
 }
+
+.drop-shadow {
+    box-shadow: 2px 2px 4px rgba(53, 26, 10, 0.5);
+}

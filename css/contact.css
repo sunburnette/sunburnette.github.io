@@ -2,6 +2,11 @@ body {
     min-height: 100vh;
     padding-top: 72px;
 
+    background-image: url('/images/home/background-music.png');
+    background: linear-gradient(#EADBAF, #FA8540);
+    background-repeat: no-repeat;
+    background-size: cover;
+
 }
 
 main {
@@ -36,7 +41,7 @@ input, textarea {
     border: none;
     min-height: 56px;
 
-    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+    box-shadow: 4px 4px 4px rgba(53, 26, 10,0.5);
     
     margin-bottom: 24px;
 
