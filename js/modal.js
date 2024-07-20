@@ -10,11 +10,11 @@ function openModal(element) {
 
     var elementName = document.getElementById("name").innerHTML = element.id;
     
-    if(elementName == 'allen') {
-        document.getElementById("picture").style.backgroundImage = "url('/images/bio/allen-2.png')";
-        document.getElementById("picture-inner").src = "/images/bio/allen-2.png";
+    if(elementName == 'connor') {
+        document.getElementById("picture").style.backgroundImage = "url('/images/bio/connor-2.jpg')";
+        document.getElementById("picture-inner").src = "/images/bio/connor-2.jpg";
 
-        document.getElementById("member-bio").innerHTML = 'Hello! My name is Allen, and I am the drummer of Sun Burnette. I find a lot of enjoyment in laying down grooves, executing dynamic tension and release, and being an overall support for the band. Very often you can find me listening to my favorite Original Pilipino Music (OPM) songs. See you at our next show!';
+        document.getElementById("member-bio").innerHTML = '';
 
     } else if(elementName == 'anette') {
         document.getElementById("picture").style.backgroundImage = "url('/images/bio/anette-2.JPG')";

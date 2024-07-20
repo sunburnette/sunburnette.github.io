@@ -77,15 +77,6 @@ section {
     /* TV graphic, desktop only */
     #videos-title {
 
-        padding: 96px;
-        background-image: url('/images/gallery/tv.png');
-        background-size: contain;
-        background-repeat: no-repeat;
-        background-position: center;
-    
-        width: 100%;
-    
-        background-position: calc(50% + 10px) 50%;
      
     }
 
