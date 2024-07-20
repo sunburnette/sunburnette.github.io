@@ -25,7 +25,8 @@ section {
 }
 .hero {
     background-image: url('/images/home/landing.jpg');
-    background-position: center top !important;
+    background-position: center 24px;
+    background-size: contain;
     position: relative;
 
     /* mobile */
@@ -172,7 +173,7 @@ section {
 }
 
 .shows img {
-    max-width: 500px;
+    width: 100%;
 }
 
 /* Gallery and Shows */
@@ -258,6 +259,10 @@ section {
 
     .shows .show-single {
         margin-bottom: 48px;
+    }
+
+    .shows img {
+        max-width: 500px;
     }
 
     .gallery-container {

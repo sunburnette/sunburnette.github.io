@@ -6,7 +6,7 @@ h2 {
 }
 
 .landing {
-    background-image: url('/images/bio/landing.jpg');
+    background-image: url('/images/bio/landing.png');
     background-position: center 25%;
     background-size: 100%;
 
@@ -51,9 +51,9 @@ background-repeat: no-repeat;
 
 }
 
-.allen {
+.connor {
     /* background: linear-gradient(rgba(0, 0, 0, 0.5), url('/images/bio/allen.png')); */
-    background-image: url('/images/bio/connor.jpg');
+    background-image: url('/images/bio/connor.png');
     background-position: center;
     background-position-y: top;
     
@@ -62,21 +62,21 @@ background-repeat: no-repeat;
 }
 
 .anette {
-    background-image: url('/images/bio/anette.jpg');
+    background-image: url('/images/bio/anette.png');
     background-position: center;
     background-position-y: top;
 
 }
 
 .marj {
-    background-image: url('/images/bio/marj.jpg');
+    background-image: url('/images/bio/marj.png');
     background-position: center;
     background-position-y: top;
 
 }
 
 .nisarg {
-    background-image: url('/images/bio/nisarg.jpg');
+    background-image: url('/images/bio/nisarg.png');
     background-position: center;
     background-position-y: top;
 
