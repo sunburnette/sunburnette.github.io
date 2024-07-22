@@ -11,10 +11,10 @@ function openModal(element) {
     var elementName = document.getElementById("name").innerHTML = element.id;
     
     if(elementName == 'connor') {
-        document.getElementById("picture").style.backgroundImage = "url('/images/bio/connor-2.jpg')";
-        document.getElementById("picture-inner").src = "/images/bio/connor-2.jpg";
+        document.getElementById("picture").style.backgroundImage = "url('/images/bio/connor-2.png')";
+        document.getElementById("picture-inner").src = "/images/bio/connor-2.png";
 
-        document.getElementById("member-bio").innerHTML = '';
+        document.getElementById("member-bio").innerHTML = "What's up gamers. Welcome to my new gameplay video. Today I'm playing as the drummer for SUN BURNETTE. It's a really cool game. The drummer class gets to smash stuff with wooden clubs. My favorite video game genres are classic rock, fusion, RnB, and hip hop. Go check out some of my other favorite Lets Play channels like The Beatles, Steely Dan, Frank Ocean, and Kendrick Lamar. I play on the music gaming console a lot but I also play on the art and graphic design console too!";
 
     } else if(elementName == 'anette') {
         document.getElementById("picture").style.backgroundImage = "url('/images/bio/anette-2.JPG')";
@@ -37,8 +37,8 @@ function openModal(element) {
 
         document.getElementById("name").innerHTML = 'The Band';
 
-        document.getElementById("picture").style.backgroundImage = "url('/images/home/gallery-2.JPG')";
-        document.getElementById("picture-inner").src = "/images/home/gallery-2.JPG";
+        document.getElementById("picture").style.backgroundImage = "url('/images/bio/landing-2.png')";
+        document.getElementById("picture-inner").src = "/images/bio/landing-2.png";
 
         document.getElementById("member-bio").innerHTML = 'SUN BURNETTE is an indie-rock band based in San Diego California. Using their collective experiences as first-gen 20-somethings, they connect with their peers here and abroad through songwriting. Knowingly navigating adolescence with complex identities, they offer a relatable conduit to listeners as a breath of fresh air. Sometimes, it\'s just not that deep. Sometimes it is.';
     }
